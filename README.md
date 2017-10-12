@@ -1,6 +1,6 @@
-Android Link跳转调研
+# Android Link跳转调研
 
-方案一：Scheme跳转
+#### 方案一：Scheme跳转
 
 - 在Manifest中加入
 
@@ -19,7 +19,7 @@ Android Link跳转调研
 
 - 在内置浏览器或任意地方进行URL 跳转即可（如任意APP中的TextView）
 - 在被唤醒的Activity中的onCreate()方法中使用getIntent()即可获取到URL的信息
-
+```java
     @Override
     protected void onCreate(Bundle savedInstanceState) {
       super.onCreate(savedInstanceState);
@@ -41,7 +41,7 @@ Android Link跳转调研
       Log.e(TAG, "queryParameter: " + uri.getQueryParameter("func"));
 
     }
-
+```
 难点
 
 - 如何跳转到指定函数？
@@ -51,4 +51,4 @@ Android Link跳转调研
 - 如何拦截Intent？
   Hook技术
 
-方案二：
+#### 方案二：
