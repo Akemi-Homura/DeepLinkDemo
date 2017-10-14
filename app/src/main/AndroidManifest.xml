@@ -23,7 +23,7 @@
 
                 <data
                     android:host="www.fifthactivity.com"
-                    android:scheme="myscheme"/>
+                    android:scheme="http"/>
             </intent-filter>
         </activity>
         <activity android:name=".FirstActivity">
@@ -35,7 +35,7 @@
 
                 <data
                     android:host="www.firstactivity.com"
-                    android:scheme="myscheme"/>
+                    android:scheme="http"/>
             </intent-filter>
         </activity>
         <activity android:name=".SecondActivity">
@@ -47,7 +47,7 @@
 
                 <data
                     android:host="www.secondactivity.com"
-                    android:scheme="myscheme"/>
+                    android:scheme="http"/>
             </intent-filter>
         </activity>
         <activity android:name=".ThirdActivity">
@@ -59,7 +59,7 @@
 
                 <data
                     android:host="www.thirdactivity.com"
-                    android:scheme="myscheme"/>
+                    android:scheme="http"/>
             </intent-filter>
         </activity>
         <activity
@@ -72,7 +72,7 @@
 
                 <data
                     android:host="www.fourthactivity.com"
-                    android:scheme="myscheme"/>
+                    android:scheme="http"/>
             </intent-filter>
         </activity>
 
