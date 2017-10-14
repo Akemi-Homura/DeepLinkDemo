@@ -1,11 +1,11 @@
 # Android Link跳转调研
 
 #### 测试URL
-- [myscheme://www.fristactivity.com](myscheme://www.fristactivity.com)
-- [myscheme://www.secondactivity.com](myscheme://www.secondactivity.com)
-- [myscheme://www.thirdactivity.com](myscheme://www.thirdactivity.com)
-- [myscheme://www.fourthactivity.com](myscheme://www.fourthactivity.com)
-- [myscheme://www.fifthactivity.com](myscheme://www.fifthactivity.com)
+- <a href="myscheme://www.fristactivity.com">FirstActivity</a>
+- <a href="myscheme://www.secondactivity.com">SecondActivity</a>
+- <a href="myscheme://www.thirdactivity.com">ThirdActivity</a>
+- <a href="myscheme://www.fourthactivity.com">FourthActivity</a>
+- <a href="myscheme://www.fifthactivity.com">FifthActivity</a>
 
 
 
