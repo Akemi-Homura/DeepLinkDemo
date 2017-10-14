@@ -7,8 +7,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
-    private static final String TAG = MainActivity.class.getSimpleName();
+public class FifthActivity extends AppCompatActivity {
+    private static final String TAG = FifthActivity.class.getSimpleName();
 
 
     @Override

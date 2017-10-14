@@ -1,5 +1,14 @@
 # Android Link跳转调研
 
+#### 测试URL
+- [myscheme://www.fristactivity.com](myscheme://www.fristactivity.com)
+- [myscheme://www.secondactivity.com](myscheme://www.secondactivity.com)
+- [myscheme://www.thirdactivity.com](myscheme://www.thirdactivity.com)
+- [myscheme://www.fourthactivity.com](myscheme://www.fourthactivity.com)
+- [myscheme://www.fifthactivity.com](myscheme://www.fifthactivity.com)
+
+
+
 #### 方案一：Scheme跳转
 
 - 在Manifest中加入
@@ -44,11 +53,11 @@
 ```
 难点
 
-- 如何跳转到指定函数？
+- 如何跳转到指定函数？<br/>
   解析Intent中的信息来确定要执行的函数
-- 如何封装成SDK？
+- 如何封装成SDK？<br/>
   使用反射
-- 如何拦截Intent？
+- 如何拦截Intent？<br/>
   Hook技术
 
 #### 方案二：

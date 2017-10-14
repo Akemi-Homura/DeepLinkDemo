@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.uestc.quals.targetappdemo.MainActivity">
+    tools:context="com.uestc.quals.targetappdemo.FifthActivity">
 
     <TextView
         android:id="@+id/info"
